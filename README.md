@@ -13,6 +13,19 @@ This repository contains a **sample** of 500 English Wikipedia articles extracte
 - `sample_500.jsonl` — sampled records (fields: id, title, text_snippet, categories).
 - `notebooks/` — code used to sample and preprocess the dataset.
 
-## Attribution
+## Attribution 
 This dataset contains content from Wikimedia (https://www.wikipedia.org). When redistributing or using portions of Wikipedia text, we attribute the original source as required by CC BY-SA 4.0. See the license for details.
 
+##Results and Visualization
+<img width="361" height="83" alt="chunks" src="https://github.com/user-attachments/assets/5c5338d1-ce5a-4739-95f7-51ed52a39bae" />
+
+Chunking Summary:
+Strategy	Outcome
+tok_300	Over-chunking → unnecessary splitting & added redundancy
+tok_500	Best tradeoff between coherence & chunking
+tok_1000	Chunking not applied at all
+
+<img width="458" height="380" alt="image" src="https://github.com/user-attachments/assets/95ec440f-b028-4380-8000-dc97d3400c10" />
+
+The blue color depicts the distinct topics in the text and this segmentation is good for retrieval.
+The green color shows the chunks of text that have similar meaning.
