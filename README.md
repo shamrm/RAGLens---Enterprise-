@@ -11,7 +11,6 @@ This repository contains a **sample** of 500 English Wikipedia articles extracte
 
 ## What is included
 - `sample_500.jsonl` — sampled records (fields: id, title, text_snippet, categories).
-- `sample_500_metadata.csv` — csv with title, snippet and categories for quick review.
 - `notebooks/` — code used to sample and preprocess the dataset.
 
 ## Attribution
