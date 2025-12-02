@@ -19,7 +19,7 @@ This dataset contains content from Wikimedia (https://www.wikipedia.org). When r
 
 ##Results and Visualization
 
-<img width="700" height="100" alt="chunks" src="https://github.com/user-attachments/assets/5c5338d1-ce5a-4739-95f7-51ed52a39bae" />
+<img width="700" height="200" alt="chunks" src="https://github.com/user-attachments/assets/30469083-129f-4356-aa80-5ed77ee28820" />
 
 
 Chunking Summary:
