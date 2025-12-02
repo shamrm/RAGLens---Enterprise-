@@ -17,7 +17,7 @@ This repository contains a **sample** of 500 English Wikipedia articles extracte
 This dataset contains content from Wikimedia (https://www.wikipedia.org). When redistributing or using portions of Wikipedia text, we attribute the original source as required by CC BY-SA 4.0. See the license for details.
 
 
-##Results and Visualization
+## Results and Visualization
 
 <img width="700" height="200" alt="chunks" src="https://github.com/user-attachments/assets/30469083-129f-4356-aa80-5ed77ee28820" />
 
