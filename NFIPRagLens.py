@@ -163,8 +163,3 @@ clear_button.on_click(handle_clear)
 
 # Layout
 display(widgets.HBox([textbox, ask_button, clear_button]), output)
-
-!pip freeze > requirements.txt
-
-from google.colab import files
-files.download("requirements.txt")
