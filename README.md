@@ -54,8 +54,7 @@ It is not an official FEMA or NFIP tool and should not be used as a substitute f
 
 ## Results and Visualization
 
-<img width="700" height="200" alt="chunks" src="https://github.com/user-attachments/assets/30469083-129f-4356-aa80-5ed77ee28820" />
+<img width="1300" height="800" alt="streamlitlink" src="https://github.com/user-attachments/assets/691cfeb2-b6ed-4381-a185-b4207da4f733" />
 
-
-<img width="1300" height="700" alt="FloodInsuranceChatbot" src="https://github.com/user-attachments/assets/488316de-5056-40b6-8da9-a7951d9f258c" />
+<!-- <img width="1300" height="700" alt="FloodInsuranceChatbot" src="https://github.com/user-attachments/assets/488316de-5056-40b6-8da9-a7951d9f258c" /> -->
 
