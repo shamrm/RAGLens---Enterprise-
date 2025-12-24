@@ -97,6 +97,7 @@ Grounded Answer
 
 
 ## 📂 Repository Structure
+```
 ├── NFIPRagLens.py        # Core RAG pipeline logic
 
 ├── streamlit_app.py     # Streamlit web interface
@@ -104,7 +105,7 @@ Grounded Answer
 ├── requirements.txt     # Project dependencies
 
 ├── README.md            # Project documentation
-
+```
 
 ## 📈 Use Case & Impact
 
