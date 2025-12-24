@@ -43,10 +43,11 @@ Topics Covered:
 
 ## 🧠 System Architecture (RAG Pipeline)
 
+###
 User Question
 
       ↓
-      
+
 Embedding Model
 
       ↓
@@ -64,7 +65,7 @@ LLM with Context Injection
       ↓
       
 Grounded Answer
-
+###
 
 ## 🛠️ Tech Stack
 
