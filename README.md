@@ -1,5 +1,3 @@
-# RAGLens---Enterprise-RAG-Evaluation
-
 # 🌊 RAGLens — Enterprise RAG Evaluation
 # 📘 NFIP Flood Insurance RAG Chatbot (450-Page Policy Manual)
 
