@@ -16,7 +16,7 @@ st.set_page_config(
 
 # Title
 st.title("🌊 Flood Insurance Chatbot")
-st.caption("Ask questions about FEMA's NFIP Flood Insurance Manual (03/2025)")
+st.caption("Ask questions about FEMA's NFIP Flood Insurance Manual (10/2025)")
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -57,4 +57,5 @@ if user_input:
 if st.button("🗑️ Clear chat"):
     st.session_state.messages = []
     st.experimental_rerun()
+
 
