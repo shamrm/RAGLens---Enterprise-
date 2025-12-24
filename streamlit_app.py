@@ -4,8 +4,8 @@ import streamlit as st
 from NFIPRagLens import ask_question
 
 # Temporary placeholder (remove once connected)
-def ask_question(question):
-    return "This is a placeholder response from the NFIP chatbot."
+# def ask_question(question):
+#     return "This is a placeholder response from the NFIP chatbot."
 
 # Page config
 st.set_page_config(
@@ -57,3 +57,4 @@ if user_input:
 if st.button("🗑️ Clear chat"):
     st.session_state.messages = []
     st.experimental_rerun()
+
