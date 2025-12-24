@@ -15,8 +15,11 @@ The chatbot enables users—such as policyholders, analysts, and researchers—t
 The manual contains detailed guidance on:
 
 -Flood insurance coverage and exclusions
+
 -Policy rating and premium determination
+
 -Eligibility requirements
+
 -Claims, underwriting, and compliance rules
 
 
@@ -33,19 +36,24 @@ Source: (https://www.fema.gov/sites/default/files/documents/fema_nfip_flood-insu
 This chatbot demonstrates how RAG-based NLP systems can be applied to complex regulatory and insurance documentation to:
 
 -Reduce manual search through dense policy text
+
 -Improve accessibility of flood insurance information
+
 -Support analysts and users with consistent, explainable answers
+
 -Minimize hallucinations by grounding responses in official FEMA documentation
+
 
 ## Disclaimer
 
 This project is for educational and research purposes only.
 It is not an official FEMA or NFIP tool and should not be used as a substitute for professional insurance advice.
 
+
 ## Results and Visualization
 
 <img width="700" height="200" alt="chunks" src="https://github.com/user-attachments/assets/30469083-129f-4356-aa80-5ed77ee28820" />
 
 
-<img width="800" height="300" alt="FloodInsuranceChatbot" src="https://github.com/user-attachments/assets/488316de-5056-40b6-8da9-a7951d9f258c" />
+<img width="1000" height="500" alt="FloodInsuranceChatbot" src="https://github.com/user-attachments/assets/488316de-5056-40b6-8da9-a7951d9f258c" />
 
