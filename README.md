@@ -14,12 +14,17 @@ https://www.fema.gov/sites/default/files/documents/fema_nfip_flood-insurance-man
 
 ## 🎯 Key Capabilities
 ✔️ Answers are strictly grounded in the NFIP manual
+
 ✔️ Reduces hallucinations via retrieval-based context injection
+
 ✔️ Supports natural-language queries over complex insurance rules
+
 ✔️ Designed for enterprise-scale document QA use cases
+
 ✔️ Deployed as a publicly accessible Streamlit web app
 
 ## 📚 Knowledge Base
+
 The chatbot’s knowledge base consists only of the official:
 📄 NFIP Flood Insurance Manual (October 2025)
 Published by the Federal Emergency Management Agency (FEMA)
@@ -40,6 +45,7 @@ Topics Covered:
 
 
 ## 🧠 System Architecture (RAG Pipeline)
+
 User Question
       ↓
 Embedding Model
@@ -57,49 +63,46 @@ Grounded Answer
 🔹 Language Models & NLP
 
 
-Hugging Face Sentence Transformers – text embeddings
+- Hugging Face Sentence Transformers – text embeddings
 
 
-Large Language Model (LLM) – answer generation
-
-
-Token-based chunking for long-document handling
+- Large Language Model (LLM) – answer generation
 
 
 🔹 Retrieval & Search
 
 
-FAISS – vector similarity search
+- FAISS – vector similarity search
 
 
-Semantic chunking for policy coherence
+- Semantic chunking for policy coherence
 
 
 🔹 RAG Framework
 
 
-Custom RAG pipeline (LangChain-inspired)
+- Custom RAG pipeline (LangChain-inspired)
 
 
-Modular retrieval + generation design
+- Modular retrieval + generation design
 
 
 🔹 Web Application
 
 
-Streamlit – interactive chatbot UI
+- Streamlit – interactive chatbot UI
 
 
-Public deployment via Streamlit Cloud
+- Public deployment via Streamlit Cloud
 
 
 🔹 Environment
 
 
-Python 3.10+
+- Python 3.10+
 
 
-GitHub for version control and deployment
+- GitHub for version control and deployment
 
 
 
@@ -111,6 +114,7 @@ GitHub for version control and deployment
 
 
 ## 📈 Use Case & Impact
+
 This project demonstrates how RAG-based NLP systems can be applied to real-world regulatory and insurance documentation to:
 
 
@@ -133,7 +137,6 @@ Educational Use Only
 
 This project is intended for educational and research purposes.
 It is not an official FEMA or NFIP tool.
-#and should not be used as a substitute for professional insurance, legal, or policy advice.
 
 ❌ Does NOT:
 
@@ -169,5 +172,5 @@ Source: https://www.fema.gov/sites/default/files/documents/fema_nfip_flood-insur
 
 <img width="1300" height="800" alt="streamlitlink" src="https://github.com/user-attachments/assets/691cfeb2-b6ed-4381-a185-b4207da4f733" />
 
-<!-- <img width="1300" height="700" alt="FloodInsuranceChatbot" src="https://github.com/user-attachments/assets/488316de-5056-40b6-8da9-a7951d9f258c" /> -->
+<!-- <img width="1500" height="900" alt="FloodInsuranceChatbot" src="https://github.com/user-attachments/assets/488316de-5056-40b6-8da9-a7951d9f258c" /> -->
 
