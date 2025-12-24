@@ -12,7 +12,9 @@ This system enables users—such as policyholders, insurance analysts, researche
 🔗 Official Source Document
 https://www.fema.gov/sites/default/files/documents/fema_nfip_flood-insurance-manual_102025.pdf
 
+
 ## 🎯 Key Capabilities
+
 ✔️ Answers are strictly grounded in the NFIP manual
 
 ✔️ Reduces hallucinations via retrieval-based context injection
@@ -22,6 +24,7 @@ https://www.fema.gov/sites/default/files/documents/fema_nfip_flood-insurance-man
 ✔️ Designed for enterprise-scale document QA use cases
 
 ✔️ Deployed as a publicly accessible Streamlit web app
+
 
 ## 📚 Knowledge Base
 
@@ -33,83 +36,69 @@ Topics Covered:
 
 🌧️ Flood insurance coverage & exclusions
 
-
 💰 Policy rating & premium determination
-
 
 🧾 Eligibility requirements
 
-
 🏠 Underwriting, claims, and compliance rules
-
 
 
 ## 🧠 System Architecture (RAG Pipeline)
 
 User Question
       ↓
+      
 Embedding Model
       ↓
+      
 Vector Similarity Search
       ↓
+      
 Relevant NFIP Chunks Retrieved
       ↓
+      
 LLM with Context Injection
       ↓
+      
 Grounded Answer
 
 
 ## 🛠️ Tech Stack
+
 🔹 Language Models & NLP
 
-
 - Hugging Face Sentence Transformers – text embeddings
-
-
 - Large Language Model (LLM) – answer generation
-
 
 🔹 Retrieval & Search
 
-
 - FAISS – vector similarity search
-
-
 - Semantic chunking for policy coherence
-
 
 🔹 RAG Framework
 
-
 - Custom RAG pipeline (LangChain-inspired)
-
-
 - Modular retrieval + generation design
-
 
 🔹 Web Application
 
-
 - Streamlit – interactive chatbot UI
-
-
 - Public deployment via Streamlit Cloud
-
-
+- 
 🔹 Environment
 
-
 - Python 3.10+
-
-
 - GitHub for version control and deployment
 
 
 
 ## 📂 Repository Structure
 ├── NFIPRagLens.py        # Core RAG pipeline logic
+
 ├── streamlit_app.py     # Streamlit web interface
+
 ├── requirements.txt     # Project dependencies
+
 ├── README.md            # Project documentation
 
 
@@ -117,19 +106,13 @@ Grounded Answer
 
 This project demonstrates how RAG-based NLP systems can be applied to real-world regulatory and insurance documentation to:
 
-
 🔍 Eliminate manual searching through dense policy manuals
-
 
 ♿ Improve accessibility of flood insurance information
 
-
 📊 Support analysts with explainable, source-backed answers
 
-
 🧠 Reduce hallucinations through strict document grounding
-
-
 
 ## ⚠️ Disclaimer
 
@@ -155,15 +138,11 @@ Source: https://www.fema.gov/sites/default/files/documents/fema_nfip_flood-insur
 
 📌 Source citations per answer
 
-
 📊 Retrieval confidence scoring
-
 
 🧪 RAG evaluation metrics (precision@k, recall@k)
 
-
 🗂️ Multi-document support
-
 
 🔐 Role-based access for enterprise use
 
