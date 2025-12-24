@@ -11,7 +11,7 @@ Original file is located at
 # !pip install -U langchain langchain-community sentence-transformers transformers accelerate faiss-cpu pypdf streamlit langchain-huggingface langchain-core
 # ```
 
-import requirements
+# import requirements
 
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
