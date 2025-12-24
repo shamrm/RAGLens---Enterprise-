@@ -8,6 +8,8 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot designed 
 
 The chatbot enables users—such as policyholders, analysts, and researchers—to query complex insurance documentation and receive accurate, source-grounded responses directly from the official NFIP manual
 
+LINK - https://nfipfloodinsurancemanualchatbot.streamlit.app/
+
 ## Source 
 - Source: (https://www.fema.gov/sites/default/files/documents/fema_nfip_flood-insurance-manual_102025.pdf)
 - The knowledge base for this chatbot consists solely of the NFIP Flood Insurance Manual (October 2025 edition) published by FEMA.
