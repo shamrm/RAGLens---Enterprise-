@@ -46,18 +46,23 @@ Topics Covered:
 ## 🧠 System Architecture (RAG Pipeline)
 
 User Question
+
       ↓
       
 Embedding Model
+
       ↓
       
 Vector Similarity Search
+
       ↓
       
 Relevant NFIP Chunks Retrieved
+
       ↓
       
 LLM with Context Injection
+
       ↓
       
 Grounded Answer
@@ -84,7 +89,7 @@ Grounded Answer
 
 - Streamlit – interactive chatbot UI
 - Public deployment via Streamlit Cloud
-- 
+
 🔹 Environment
 
 - Python 3.10+
@@ -124,8 +129,11 @@ It is not an official FEMA or NFIP tool.
 ❌ Does NOT:
 
 Give legal advice or personalized recommendations
+
 Make eligibility decisions
+
 Suggest strategies
+
 Replace consultation with an agent
 
 ## 🙌 Attribution
